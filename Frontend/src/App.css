@@ -1,0 +1,70 @@
+/* App.css  */
+ .container {
+     max-width: 90vw;
+     margin: 0 auto;
+     padding: 20px 100px;
+     background:linear-gradient(270deg, rgb(150, 223, 150),rgb(220, 152, 220));
+
+ }
+
+
+ nav {
+     background-color: #385353;
+     padding: 10px;
+     border-radius: 10px;
+ }
+
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+ }
+
+ li {
+     margin-right: 20px;
+ }
+
+ a {
+
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+ }
+
+ a:hover {
+     color: #ffd700;
+ }
+
+ .active {
+
+     color: #ffd700;
+ }
+
+ /* FLEX  */
+ .flex-column {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .flex-row {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+ img{
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    margin-top: 2rem;
+    border-radius: 2rem;
+ }
+ .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }

@@ -1,0 +1,116 @@
+/* /src/components/Doctors.css */
+
+.main-doc-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors-section {
+  width: 45%;
+  height: 100vh;
+  text-align: center;
+  margin-left: 16px;
+}
+
+/* Doctor card */
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.doctor-card:hover {
+  transform: scale(1.02);
+}
+
+.doctor-card p {
+  margin: 0;
+}
+
+.doctor-card button {
+  margin-top: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Form section */
+.form-sections {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 45%;
+  margin-bottom: 306px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-sections h4 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.form-sections form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-sections form label {
+  margin-bottom: 8px;
+}
+
+.form-sections form input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.form-sections form button {
+  align-self: flex-start;
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-sections form button:hover {
+  background-color: #0056b3;
+}
+
+/* Reusable button style */
+button {
+  margin-top: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
